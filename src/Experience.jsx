@@ -11,7 +11,7 @@ function Experience() {
 
   return (
     <div className="flex flex-col items-center justify-center my-48 mx-5 md:mx-0 space-y-2 ">
-        <h4 className='font-bold text-5xl mx-20 text-gray-700 my-10'>My Experience</h4>
+        <h4 className='font-bold text-4xl mx-20 text-gray-700 my-10'>My Experience</h4>
       <ExperienceItem 
         label="App Dev @ Access Solutions Ltd"
         datee="2024 - Present"
