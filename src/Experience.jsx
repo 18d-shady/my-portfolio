@@ -3,14 +3,14 @@ import ExperienceItem from './ExperienceItem';
 import ExperienceContent from './ExperienceContent';
 
 function Experience() {
-  const [openIndex, setOpenIndex] = useState(null); // This keeps track of the open dropdown index
+  const [openIndex, setOpenIndex] = useState(0); // This keeps track of the open dropdown index
 
   const toggleDropdown = (index) => {
     setOpenIndex(openIndex === index ? null : index); // Close it if it's already open, otherwise open it
   };
 
   return (
-    <div className="flex flex-col items-center justify-center my-48 mx-5 md:mx-0 space-y-2 ">
+    <div className="flex flex-col items-center justify-center my-28 md:my-48 mx-5 md:mx-0 space-y-2 ">
         <h4 className='font-bold text-4xl mx-20 text-gray-700 my-10'>My Experience</h4>
       <ExperienceItem 
         label="App Dev @ Access Solutions Ltd"

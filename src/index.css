@@ -58,7 +58,18 @@ code {
 }
 
 
-.almost-full{
-  width: 500px;
-  height: 500px;
+
+@media screen and (min-width: 1024px) {
+  .almost-full{
+    width: 400px;
+    height: 400px;
+  }
+}
+
+/* Styles for extra-large screens (≥ 1280px) */
+@media screen and (min-width: 1280px) {
+  .almost-full{
+    width: 500px;
+    height: 500px;
+  }
 }

@@ -8,7 +8,7 @@ function Work() {
     <div className="mx-3 md:mx-10 lg:mx-20 my-20">
       <h3 className="font-bold text-4xl mx-20 my-10 text-gray-700">My Recent Works</h3>
       <div className="flex space-x-2 border-b-2 border-gray-200 max-w-1/2">
-        <p className="font-semibold text-gray-900">Filter <span className="hidden md:inline-block">by</span>: </p>
+        <p className="font-semibold text-gray-900">Filter <span className="hidden md:inline-block">by:</span></p>
         <button
           className={`py-2 px-3 text-sm font-semibold ${activeTab === 0 ? 'text-green-700 border-b-2 border-green-700' : 'text-gray-500 hover:text-green-700'}`}
           onClick={() => setActiveTab(0)}
