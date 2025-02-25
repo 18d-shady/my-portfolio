@@ -1,20 +1,19 @@
 //import logo from './logo.svg';
 import './App.css';
-//import Header from './Header';
-import Introduction from './Introduction';
-import Description from './Description';
-import Work from './Work';
-import Experience from './Experience';
-import Contact from './Contact';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import HomePage from './HomePage';
+import WorkItem from './WorkItem';
 
 function App() {
   return (
     <div className="App bg-white">
-      <Introduction />
-      <Description />
-      <Work />
-      <Experience />
-      <Contact />
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/my-portfolio" element={<HomePage />} />
+          <Route path="/work/:title" element={<WorkItem />} /> 
+        </Routes>
+      </Router>
     </div>
   );
 }

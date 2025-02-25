@@ -2,9 +2,9 @@ import React from 'react';
 
 function Contact(){
 	return (
-		<div className="md:flex md:flex-row font-mono ">
-		  <div className="md:basis-1/2 site-colorr p-5" >
-		    <h3 className="text-4xl font-bold text-white my-7 text-center">Let's Work Together</h3>
+		<section id="contact" className="md:flex md:flex-row font-mono ">
+		  <div className="md:basis-1/2 site-colorr p-1 md:p-5" >
+		    <h3 className="text-3xl md:text-4xl font-bold text-white my-7 text-center">Let's Work Together</h3>
 		    <p className="w-4/5 text-sm mx-auto text-white">I make sure I deliver the best possible solutions in whatever I do. Feel free to hire me for your exquisite software solutions</p>
 			<form className="my-4 ">
 			  <input 
@@ -92,7 +92,7 @@ function Contact(){
 		    </div>
 		  	
 		  </div>	
-		</div>
+		</section>
 
 	);
 }

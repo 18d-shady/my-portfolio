@@ -6,7 +6,7 @@ function Introduction(){
     const imageUrl = require('./display2.jpg');
     //rgb(11, 65, 56);
     return(
-        <div className="land-height">
+        <section id="introduction" className="land-height">
             <div className='site-colorr hidden lg:block w-full'><Header /></div>
 
             <div className="landing-shape py-28 hidden lg:block">
@@ -63,19 +63,19 @@ function Introduction(){
                     <Header />
                     <ScrollAnimation className="absolute bottom-0 left-0 right-0 h-96 bg-black bg-opacity-70 trapezium
                         flex flex-col ">
-                        <h4 className="font-sanserif text-left mx-10 text-xl text-white mt-28">HELLO I AM</h4>
-                        <h4 className="font-mono text-left mx-10 text-2xl text-white my-3">Olehi Davis</h4>
-                        <h4 className="font-serif text-left mx-10 text-2xl text-white">
+                        <h4 className="font-sanserif text-left mx-7 text-lg text-white mt-32">HELLO I AM</h4>
+                        <h4 className="font-mono text-left mx-7 text-2xl text-white my-2">Olehi Davis</h4>
+                        <h4 className="font-serif text-left mx-7 text-2xl text-white">
                             Embedded Systems and Software Applications Developer
                         </h4>
-                        <button className=' px-5 py-3 text-white bg-green-900 font-mono my-3 bg-opacity-90
-                            text-2xl text-center my-5 w-48 mx-10'>
+                        <button className=' px-5 py-2 text-white border-4 border-green-800 font-mono my-2 
+                            text-lg text-center my-5 w-48 mx-7 hover:bg-green-800 hover:bg-opacity-90'>
                             Hire Me
                         </button>
 
                     </ScrollAnimation>
             </div>
-        </div>
+        </section>
 
        
     );
