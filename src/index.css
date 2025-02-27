@@ -62,6 +62,24 @@ code {
   clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 
+.h-96pro {
+  height: 400px;
+}
+
+.project-category {
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+.open-project {
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.downboss:hover .project-category {
+  transform: translateY(-20px);
+  opacity: 0;
+}
+.downboss:hover .open-project {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 
 @media screen and (min-width: 1024px) {

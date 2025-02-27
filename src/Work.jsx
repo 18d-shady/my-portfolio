@@ -44,28 +44,28 @@ function Work() {
         {activeTab === 0 && 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           <WorkCard 
-            classNames= 'h-96'
+            classNames= 'h-96pro'
             projectImage="background.jpg"
             projectTitle="PAHelp"
             projectCategory="Web application"
           />
 
           <WorkCard 
-            classNames='h-96'
+            classNames='h-96pro'
             projectImage="background2.jpg"
             projectTitle="Clintons Inventory App"
             projectCategory="Web application"
           />
 
           <WorkCard 
-            classNames='h-96'
+            classNames='h-96pro'
             projectImage="background3.jpg"
             projectTitle="Oge's Ecommerce Application"
             projectCategory="Web application"
           />
 
           <WorkCard
-            classNames='h-96'
+            classNames='h-96pro'
             projectImage="ui.png"
             projectTitle="Blog"
             projectCategory="Web application"

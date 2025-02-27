@@ -17,10 +17,10 @@ function Introduction(){
                         Embedded Systems and Software Applications Developer
                     </h4>
 
-                    <button className='rounded-full px-5 py-3 text-white bg-gray-600 font-mono 
-                        text-2xl text-center my-5 w-48 ms-20'>
+                    <a href="#contact" className='px-5 py-3 text-white border-2 border-white font-mono 
+                        text-2xl text-center my-5 w-48 ms-20 hover:bg-white hover:text-gray-800'>
                         Hire Me
-                    </button>
+                    </a>
 
                     {/*<div className='triangle'></div>*/}
                 </ScrollAnimation>
@@ -43,10 +43,10 @@ function Introduction(){
                         <h4 className="font-serif text-left mx-10 text-3xl text-white">
                             Embedded Systems and Software Applications Developer
                         </h4>
-                        <button className='px-5 py-3 text-white bg-gray-600 font-mono 
-                            text-2xl text-center my-5 w-48 mx-10'>
+                        <a href="#contact" className='px-5 py-3 text-white border-2 border-white font-mono 
+                            text-2xl text-center my-5 w-48 mx-10 hover:bg-white hover:text-gray-800'>
                             Hire Me
-                        </button>
+                        </a>
                     </ScrollAnimation>
 
                     <div className="w-full h-full bg-center bg-no-repeat bg-cover complement"
@@ -68,10 +68,10 @@ function Introduction(){
                         <h4 className="font-serif text-left mx-7 text-2xl text-white">
                             Embedded Systems and Software Applications Developer
                         </h4>
-                        <button className=' px-5 py-2 text-white border-4 border-green-800 font-mono my-2 
-                            text-lg text-center my-5 w-48 mx-7 hover:bg-green-800 hover:bg-opacity-90'>
+                        <a href="#contact" className=' px-5 py-2 text-white border-2 border-white font-mono my-2 
+                            text-lg text-center my-5 w-48 mx-7 hover:bg-white hover:bg-opacity-90 hover:text-gray-800'>
                             Hire Me
-                        </button>
+                        </a>
 
                     </ScrollAnimation>
             </div>

@@ -9,6 +9,10 @@ function Header(){
     setIsOpen(!isOpen);
   };
 
+  const handleLinkClick = () => {
+    setIsOpen(false);
+  };
+
   return (
     <nav className="p-4">
       <div className="mx-auto px-2 sm:px-6 lg:px-8">
@@ -88,10 +92,10 @@ function Header(){
             </button>
           </div>
         <div className="px-2 py-72 space-y-1 sm:px-3 h-full flex flex-col justify-between">
-          <a href="#introduction" className="text-white block px-3 py-2 rounded-md text-lg font-medium">Home</a>
-          <a href="#description" className="text-white block px-3 py-2 rounded-md text-lg font-medium">About</a>
-          <a href="#work" className="text-white block px-3 py-2 rounded-md text-lg font-medium">Services</a>
-          <a href="#contact" className="text-white block px-3 py-2 rounded-md text-lg font-medium">Contact</a>
+          <a href="#introduction" onclick={handleLinkClick} className="text-white block px-3 py-2 rounded-md text-lg font-medium">Home</a>
+          <a href="#description" onclick={handleLinkClick} className="text-white block px-3 py-2 rounded-md text-lg font-medium">About</a>
+          <a href="#work" onclick={handleLinkClick} className="text-white block px-3 py-2 rounded-md text-lg font-medium">Services</a>
+          <a href="#contact" onclick={handleLinkClick} className="text-white block px-3 py-2 rounded-md text-lg font-medium">Contact</a>
         </div>
       </div>
     </nav>

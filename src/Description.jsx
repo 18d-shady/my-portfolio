@@ -17,7 +17,7 @@ function Description(){
                 </div>
                 */}
 
-                <ScrollAnimation className="text-left p-5 lg:p-10 border border-gray-500">
+                <ScrollAnimation className="text-left p-5 py-10 lg:p-10 border border-gray-500">
                     <div className='flex flex-row space-x-3 xl:space-x-5 items-center '>
                         <svg className="h-16 w-16 xl:h-20 xl:w-20 text-green-700"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                           <path stroke="none" d="M0 0h24v24H0z"/>
@@ -29,14 +29,14 @@ function Description(){
                         </svg>
                         <div className='font-bold text-2xl xl:text-3xl text-gray-700'>Web Development</div>
                     </div>
-                    <h3 className="text-slate-700 my-5 xl:my-10 font-mono text-sm md:text-base"> 
+                    <h3 className="text-slate-700 my-10 font-mono text-sm md:text-base mx-2"> 
                          Over 5 years experience building 
                         web applications using HTML, CSS, Javascript and React as frontend technology and 
                         python's django and flask framework as backend technology.
                     </h3>
                 </ScrollAnimation>
 
-                <ScrollAnimation className="text-left p-5 lg:p-10 border border-gray-500"
+                <ScrollAnimation className="text-left p-5 py-10 lg:p-10 border border-gray-500"
                     largeScreenDelay={250}>
                     <div className='flex flex-row space-x-3 xl:space-x-5 items-center'>
                     <svg class="h-16 w-16 xl:h-20 xl:w-20 text-green-700"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -45,14 +45,14 @@ function Description(){
 
                         <div className='font-bold text-2xl xl:text-3xl text-gray-700'> Desktop/Mobile App Dev</div>
                     </div>
-                    <h3 className="text-slate-700 my-5 xl:my-10 font-mono text-sm md:text-base"> 
+                    <h3 className="text-slate-700 my-10 font-mono text-sm md:text-base mx-2"> 
                         Experience building scalable and responsive mobile and desktop applications 
                         using java, javafx, kotlin and jetpack compose. Also using python software to create
                         OCR, nltk and other software solutions
                     </h3>
                 </ScrollAnimation>
 
-                <ScrollAnimation className="text-left p-5 lg:p-10 border border-gray-500"
+                <ScrollAnimation className="text-left p-5 py-10 lg:p-10 border border-gray-500"
                     largeScreenDelay={500}>
                     <div className='flex flex-row space-x-3 xl:space-x-5 items-center'>
                         <svg class="h-16 w-16 xl:h-20 xl:w-20 text-green-700"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">
@@ -69,7 +69,7 @@ function Description(){
                         </svg>
                         <div className='font-bold text-2xl xl:text-3xl text-gray-700'>Electronics Engineering</div>
                     </div>
-                    <h3 className="text-slate-700 my-5 xl:my-10 font-mono text-sm md:text-base"> 
+                    <h3 className="text-slate-700 my-10 font-mono text-sm md:text-base mx-2"> 
                         Experience building arduino devices, implementing IOT solutions and working 
                         with functionalities such as bluetooth, wifi and other pheripherals using microcontrollers
                         and software engineering
