@@ -45,9 +45,29 @@ function Work() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           <WorkCard 
             classNames= 'h-96pro'
-            projectImage="background.jpg"
-            projectTitle="PAHelp"
+            projectImage="pahelp.jpg"
+            projectTitle="PAHelp's Chatbot"
+            projectCategory="Android Application"
+            projectImages= {["pahelp.jpg"]}
+            projectDescription= {`A chatbot made for a clients application, trained with python's rasa model
+              for offline communcation and making use of OpenAi's model for online communication. It also 
+              has some special admin's features and allows for a beautiful user experience. With this chatbot,
+              PAHelp's clients can make enquiries about their services and also have access to artificial
+              intelligence for any assistance they require`}
+          />
+
+          <WorkCard 
+            classNames='h-96pro'
+            projectImage="clinton_inventory3.png"
+            projectTitle="Clintons Inventory App"
             projectCategory="Web application"
+            projectImages= {["clinton_inventory3.png", "clinton_inventory2.png", "clinton_inventory1.png"]}
+            projectDescription= {`An inventory application made for a drug store to keep stock of the
+              available drugs, to make purchases and to track sales. It also comes with an inbuilt POS 
+              application, where the employee can make sales and it automatically refreshes the inventory
+              data. 
+              The web application also notifies the admin on low-stock items and help them manage their 
+              stock properly.`}
           />
 
           <WorkCard 
@@ -55,42 +75,105 @@ function Work() {
             projectImage="background2.jpg"
             projectTitle="Clintons Inventory App"
             projectCategory="Web application"
+            projectImages= {["clinton_inventory3.png", "clinton_inventory2.png", "clinton_inventory1.png"]}
+            projectDescription= {`An inventory application made for a drug store to keep stock of the
+              available drugs, to make purchases and to track sales. It also comes with an inbuilt POS 
+              application, where the employee can make sales and it automatically refreshes the inventory
+              data. 
+              The web application also notifies the admin on low-stock items and help them manage their 
+              stock properly.`}
           />
 
           <WorkCard 
             classNames='h-96pro'
             projectImage="background3.jpg"
-            projectTitle="Oge's Ecommerce Application"
+            projectTitle="Clintons Inventory App"
             projectCategory="Web application"
+            projectImages= {["clinton_inventory3.png", "clinton_inventory2.png", "clinton_inventory1.png"]}
+            projectDescription= {`An inventory application made for a drug store to keep stock of the
+              available drugs, to make purchases and to track sales. It also comes with an inbuilt POS 
+              application, where the employee can make sales and it automatically refreshes the inventory
+              data. 
+              The web application also notifies the admin on low-stock items and help them manage their 
+              stock properly.`}
           />
 
-          <WorkCard
+          <WorkCard 
             classNames='h-96pro'
-            projectImage="ui.png"
-            projectTitle="Blog"
+            projectImage="background4.jpg"
+            projectTitle="Clintons Inventory App"
             projectCategory="Web application"
-            projectImages= {["ui.png", "background3.jpg"]}
-            projectDescription= {`this is a bla bla al bla bla al
-              this is a bla bla al bla bla al
-              this is a bla bla al bla bla al
-              this is a bla bla al bla bla al
-              this is a bla bla al bla bla al
-              this is a bla bla al bla bla al
-              this is a bla bla al bla bla al
-              this is a bla bla al bla bla al
-              this is a bla bla al bla bla al
-              this is a bla bla al bla bla al
-              this is a bla bla al bla bla al
-              this is a bla bla al bla bla al
-              `} 
+            projectImages= {["clinton_inventory3.png", "clinton_inventory2.png", "clinton_inventory1.png"]}
+            projectDescription= {`An inventory application made for a drug store to keep stock of the
+              available drugs, to make purchases and to track sales. It also comes with an inbuilt POS 
+              application, where the employee can make sales and it automatically refreshes the inventory
+              data. 
+              The web application also notifies the admin on low-stock items and help them manage their 
+              stock properly.`}
+          />
+
+          <WorkCard 
+            classNames='h-96pro'
+            projectImage="background.jpg"
+            projectTitle="Clintons Inventory App"
+            projectCategory="Web application"
+            projectImages= {["clinton_inventory3.png", "clinton_inventory2.png", "clinton_inventory1.png"]}
+            projectDescription= {`An inventory application made for a drug store to keep stock of the
+              available drugs, to make purchases and to track sales. It also comes with an inbuilt POS 
+              application, where the employee can make sales and it automatically refreshes the inventory
+              data. 
+              The web application also notifies the admin on low-stock items and help them manage their 
+              stock properly.`}
+          />
+
+          <WorkCard 
+            classNames='h-96pro'
+            projectImage="megzcrafthub1.jpg"
+            projectTitle="Megzcraftshub Giftboxes store"
+            projectCategory="Web application"
+            projectImages= {["megzcrafthub1.jpg", "megzcrafthub2.jpg", "megzcrafthub3.jpg", 
+              "megzcrafthub7.jpg", "megzcrafthub4.jpg", "megzcrafthub5.jpg", 
+              "megzcrafthub6.jpg","megzcrafthub8.jpg",
+            ]}
+            projectDescription= {`An inventory application made for a drug store to keep stock of the
+              available drugs, to make purchases and to track sales. It also comes with an inbuilt POS 
+              application, where the employee can make sales and it automatically refreshes the inventory
+              data. 
+              The web application also notifies the admin on low-stock items and help them manage their 
+              stock properly.`}
             isLink={"https://megzcrafthub.ng/"}
-          >
-            
-          </WorkCard>
+          />
+
+          <WorkCard 
+            classNames='h-96pro'
+            projectImage="weather.jpg"
+            projectTitle="Weather App"
+            projectCategory="Web application"
+            projectImages= {["weather.jpg"]}
+            projectDescription= {`A weather application built with reactjs to check the weather of your city and to 
+              also check the weather of other cities listed in the api.`}
+          />
 
         </div>}
-        {activeTab === 1 && <div className="p-4 bg-gray-100">Content for Tab 2</div>}
-        {activeTab === 2 && <div className="p-4 bg-gray-100">Content for Tab 3</div>}
+
+        {activeTab === 1 && 
+        <div className="p-4 bg-gray-100">Content for Tab 2</div>}
+
+        {activeTab === 2 && 
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <WorkCard 
+            classNames= 'h-96pro'
+            projectImage="pahelp.jpg"
+            projectTitle="PAHelp's Chatbot"
+            projectCategory="Android Application"
+            projectImages= {["pahelp.jpg"]}
+            projectDescription= {`A chatbot made for a clients application, trained with python's rasa model
+              for offline communcation and making use of OpenAi's model for online communication. It also 
+              has some special admin's features and allows for a beautiful user experience. With this chatbot,
+              PAHelp's clients can make enquiries about their services and also have access to artificial
+              intelligence for any assistance they require`}
+          />
+        </div>}
         {activeTab === 3 && <div className="p-4 bg-gray-100">Content for Tab 4</div>}
       </div>
     </section>

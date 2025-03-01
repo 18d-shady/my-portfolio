@@ -18,25 +18,31 @@ function WorkItem() {
                     <span>Back</span>
                 </Link>
             </div>
-            <h4 className='font-bold text-3xl md:text-4xl mx-5 md:mx-10 text-gray-700 mt-5'>{projectTitle}</h4>
-            <p className='text-sm mx-5 md:mx-10 text-gray-700 mb-3'>{projectCategory}</p>
-            <div className="py-1 mx-5 md:mx-10">{projectDescription}</div>
+            <div className=' mx-5 lg:mx-60 mt-14 min-h-screen'>
+                <h4 className='font-bold text-3xl md:text-4xl text-gray-700'>{projectTitle}</h4>
+                <p className='text-sm text-gray-700 mb-3'>{projectCategory}</p>
+                <div className="py-1">{projectDescription}</div>
 
-            {isLink && <a href={isLink} className='text-lg text-left mx-5 md:mx-10 mt-5 mb-2 site-texxt'>Open Project ... </a>}
+                {isLink && <a href={isLink} className='text-lg text-left mt-5 mb-2 site-texxt'>Open Project ... </a>}
+            
 
-            <div className="my-5 mx-5 md:mx-10">
-                {projectImages && projectImages.map((projectImage, index) => {
-                    const imageUrl = require(`./${projectImage}`);
-                    return (
-                        <div key={index} className="flex justify-center my-10">
-                            <img 
-                                src={imageUrl} 
-                                alt={`Project display ${index + 1}`} 
-                                className="w-full h-auto object-cover"
-                            />
-                        </div>
-                    );
-                })}
+            
+
+                <div className="my-5">
+                    {projectImages && projectImages.map((projectImage, index) => {
+                        const imageUrl = require(`./${projectImage}`);
+                        return (
+                            <div key={index} className="flex justify-center my-10 border border-gray-400 
+                            rounded-xl">
+                                <img 
+                                    src={imageUrl} 
+                                    alt={`Project display ${index + 1}`} 
+                                    className="w-full h-auto object-cover"
+                                />
+                            </div>
+                        );
+                    })}
+                </div>
             </div>
 
             <div className='text-center'><Contact /></div>
