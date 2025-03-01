@@ -1,23 +1,36 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.b607ee13.css",
-    "main.js": "/my-portfolio/static/js/main.15c8ddfc.js",
+    "main.css": "/my-portfolio/static/css/main.b9bd6a61.css",
+    "main.js": "/my-portfolio/static/js/main.406a4d92.js",
     "static/js/488.91ee2a69.chunk.js": "/my-portfolio/static/js/488.91ee2a69.chunk.js",
     "static/media/background.jpg": "/my-portfolio/static/media/background.5be3fbae77e865ffa926.jpg",
     "static/media/background2.jpg": "/my-portfolio/static/media/background2.26725c2eb8d69118fcd7.jpg",
     "static/media/background4.jpg": "/my-portfolio/static/media/background4.166afe8172a5c42063c4.jpg",
     "static/media/background3.jpg": "/my-portfolio/static/media/background3.fdc1b6cd168a8b52d69f.jpg",
+    "static/media/megzcrafthub7.jpg": "/my-portfolio/static/media/megzcrafthub7.20ce3baa52689ae35207.jpg",
+    "static/media/megzcrafthub8.jpg": "/my-portfolio/static/media/megzcrafthub8.23fedceac4b2e938eb76.jpg",
+    "static/media/clinton_inventory1.png": "/my-portfolio/static/media/clinton_inventory1.d54dc286abdfa9c38d2c.png",
+    "static/media/megzcrafthub2.jpg": "/my-portfolio/static/media/megzcrafthub2.727bf489fa8abcd4e4a6.jpg",
+    "static/media/megzcrafthub4.jpg": "/my-portfolio/static/media/megzcrafthub4.0d2f1cf0d14dab8ba3ea.jpg",
+    "static/media/pahelp.jpg": "/my-portfolio/static/media/pahelp.98f6b18627c87d623a1d.jpg",
+    "static/media/megzcrafthub1.jpg": "/my-portfolio/static/media/megzcrafthub1.2e85bfe7d01b9bae3fed.jpg",
+    "static/media/megzcrafthub3.jpg": "/my-portfolio/static/media/megzcrafthub3.170d99ad8c3ec7980c63.jpg",
+    "static/media/weather.jpg": "/my-portfolio/static/media/weather.6c5c8d5e82eca9c99458.jpg",
+    "static/media/clinton_inventory2.png": "/my-portfolio/static/media/clinton_inventory2.b5b8b547c7981e24039d.png",
     "static/media/display.jpg": "/my-portfolio/static/media/display.c6b2fc537ee5d6ee73ad.jpg",
+    "static/media/megzcrafthub5.jpg": "/my-portfolio/static/media/megzcrafthub5.10c7223f2a219cc6efda.jpg",
+    "static/media/clinton_inventory3.png": "/my-portfolio/static/media/clinton_inventory3.fcc5b71c62863721474d.png",
     "static/media/display2.jpg": "/my-portfolio/static/media/display2.9ba98b5f452b178ddc7c.jpg",
     "static/media/ui.png": "/my-portfolio/static/media/ui.3fcd4858208137f9255e.png",
+    "static/media/megzcrafthub6.jpg": "/my-portfolio/static/media/megzcrafthub6.01c7235aa7646fb549f6.jpg",
     "static/media/logo.svg": "/my-portfolio/static/media/logo.6ce24c58023cc2f8fd88.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.b607ee13.css.map": "/my-portfolio/static/css/main.b607ee13.css.map",
-    "main.15c8ddfc.js.map": "/my-portfolio/static/js/main.15c8ddfc.js.map",
+    "main.b9bd6a61.css.map": "/my-portfolio/static/css/main.b9bd6a61.css.map",
+    "main.406a4d92.js.map": "/my-portfolio/static/js/main.406a4d92.js.map",
     "488.91ee2a69.chunk.js.map": "/my-portfolio/static/js/488.91ee2a69.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b607ee13.css",
-    "static/js/main.15c8ddfc.js"
+    "static/css/main.b9bd6a61.css",
+    "static/js/main.406a4d92.js"
   ]
 }
