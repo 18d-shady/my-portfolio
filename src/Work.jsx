@@ -58,63 +58,33 @@ function Work() {
 
           <WorkCard 
             classNames='h-96pro'
+            projectImage="images/ahf1.jpg"
+            projectTitle="AHF Desktop App"
+            projectCategory="Desktop application"
+            projectImages= {["images/ahf1.jpg", "images/ahf2.jpg", "images/ahf3.jpg", 
+              "images/ahf4.jpg", "images/ahf5.jpg", "images/ahf6.jpg", "images/ahf7.jpg"
+            ]}
+            projectDescription= {`A hospital management application designed by the access solution
+              technology team to help automate and facilitate various hospital processes. The 
+              application is rich in terms of functionalities and aids in alot of solutions.`}
+          />
+
+          <WorkCard 
+            classNames='h-96pro'
+            projectImage="images/erc1.jpg"
+            projectTitle="BECE ERC Application"
+            projectCategory="Destop application"
+            projectImages= {[ "images/erc1.jpg", "images/erc2.jpg", "images/erc3.jpg", 
+              "images/erc4.jpg", "images/erc5.jpg", "images/erc6.jpg", 
+            ]}
+            projectDescription= {`An Educational Resources Center application designed for the BECE 
+              examination, by I and the access solution technology team, that helps to compute
+              students result for the examination.`}
+          />
+
+          <WorkCard 
+            classNames='h-96pro'
             projectImage="clinton_inventory3.png"
-            projectTitle="Clintons Inventory App"
-            projectCategory="Web application"
-            projectImages= {["clinton_inventory3.png", "clinton_inventory2.png", "clinton_inventory1.png"]}
-            projectDescription= {`An inventory application made for a drug store to keep stock of the
-              available drugs, to make purchases and to track sales. It also comes with an inbuilt POS 
-              application, where the employee can make sales and it automatically refreshes the inventory
-              data. 
-              The web application also notifies the admin on low-stock items and help them manage their 
-              stock properly.`}
-          />
-
-          <WorkCard 
-            classNames='h-96pro'
-            projectImage="background2.jpg"
-            projectTitle="Clintons Inventory App"
-            projectCategory="Web application"
-            projectImages= {["clinton_inventory3.png", "clinton_inventory2.png", "clinton_inventory1.png"]}
-            projectDescription= {`An inventory application made for a drug store to keep stock of the
-              available drugs, to make purchases and to track sales. It also comes with an inbuilt POS 
-              application, where the employee can make sales and it automatically refreshes the inventory
-              data. 
-              The web application also notifies the admin on low-stock items and help them manage their 
-              stock properly.`}
-          />
-
-          <WorkCard 
-            classNames='h-96pro'
-            projectImage="background3.jpg"
-            projectTitle="Clintons Inventory App"
-            projectCategory="Web application"
-            projectImages= {["clinton_inventory3.png", "clinton_inventory2.png", "clinton_inventory1.png"]}
-            projectDescription= {`An inventory application made for a drug store to keep stock of the
-              available drugs, to make purchases and to track sales. It also comes with an inbuilt POS 
-              application, where the employee can make sales and it automatically refreshes the inventory
-              data. 
-              The web application also notifies the admin on low-stock items and help them manage their 
-              stock properly.`}
-          />
-
-          <WorkCard 
-            classNames='h-96pro'
-            projectImage="background4.jpg"
-            projectTitle="Clintons Inventory App"
-            projectCategory="Web application"
-            projectImages= {["clinton_inventory3.png", "clinton_inventory2.png", "clinton_inventory1.png"]}
-            projectDescription= {`An inventory application made for a drug store to keep stock of the
-              available drugs, to make purchases and to track sales. It also comes with an inbuilt POS 
-              application, where the employee can make sales and it automatically refreshes the inventory
-              data. 
-              The web application also notifies the admin on low-stock items and help them manage their 
-              stock properly.`}
-          />
-
-          <WorkCard 
-            classNames='h-96pro'
-            projectImage="background.jpg"
             projectTitle="Clintons Inventory App"
             projectCategory="Web application"
             projectImages= {["clinton_inventory3.png", "clinton_inventory2.png", "clinton_inventory1.png"]}
@@ -142,6 +112,31 @@ function Work() {
               The web application also notifies the admin on low-stock items and help them manage their 
               stock properly.`}
             isLink={"https://megzcrafthub.ng/"}
+          />
+
+          <WorkCard 
+            classNames='h-96pro'
+            projectImage="background4.jpg"
+            projectTitle="Clintons Inventory App"
+            projectCategory="Web application"
+            projectImages= {["clinton_inventory3.png", "clinton_inventory2.png", "clinton_inventory1.png"]}
+            projectDescription= {`An inventory application made for a drug store to keep stock of the
+              available drugs, to make purchases and to track sales. It also comes with an inbuilt POS 
+              application, where the employee can make sales and it automatically refreshes the inventory
+              data. 
+              The web application also notifies the admin on low-stock items and help them manage their 
+              stock properly.`}
+          />
+
+          <WorkCard 
+            classNames='h-96pro'
+            projectImage="images/fingerprint1.jpg"
+            projectTitle="Biometric Attendance System"
+            projectCategory="Desktop Application"
+            projectImages= {["images/fingerprint1.jpg", "images/fingerprint2.jpg"]}
+            projectDescription= {`A biometric attendance system designed for getting 
+              fingerprints for staff and recording the time they arrived at work. It also 
+              enables you to register staffs using their biometric information.`}
           />
 
           <WorkCard 
