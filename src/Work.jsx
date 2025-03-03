@@ -99,7 +99,7 @@ function Work() {
           <WorkCard 
             classNames='h-96pro'
             projectImage="megzcrafthub1.jpg"
-            projectTitle="Megzcraftshub Giftboxes store"
+            projectTitle="Megzcraftshub Giftboxes"
             projectCategory="Web application"
             projectImages= {["megzcrafthub1.jpg", "megzcrafthub2.jpg", "megzcrafthub3.jpg", 
               "megzcrafthub7.jpg", "megzcrafthub4.jpg", "megzcrafthub5.jpg", 
@@ -112,20 +112,6 @@ function Work() {
               The web application also notifies the admin on low-stock items and help them manage their 
               stock properly.`}
             isLink={"https://megzcrafthub.ng/"}
-          />
-
-          <WorkCard 
-            classNames='h-96pro'
-            projectImage="background4.jpg"
-            projectTitle="Clintons Inventory App"
-            projectCategory="Web application"
-            projectImages= {["clinton_inventory3.png", "clinton_inventory2.png", "clinton_inventory1.png"]}
-            projectDescription= {`An inventory application made for a drug store to keep stock of the
-              available drugs, to make purchases and to track sales. It also comes with an inbuilt POS 
-              application, where the employee can make sales and it automatically refreshes the inventory
-              data. 
-              The web application also notifies the admin on low-stock items and help them manage their 
-              stock properly.`}
           />
 
           <WorkCard 
@@ -145,6 +131,38 @@ function Work() {
             projectTitle="Weather App"
             projectCategory="Web application"
             projectImages= {["weather.jpg"]}
+            projectDescription= {`A weather application built with reactjs to check the weather of your city and to 
+              also check the weather of other cities listed in the api.`}
+          />
+
+          <WorkCard 
+            classNames='h-96pro'
+            projectImage="images/former_portfolio.jpg"
+            projectTitle="My Former Portfolio"
+            projectCategory="Web application"
+            projectImages= {["images/former_portfolio.jpg", "images/former_portfolio2.jpg", 
+              "images/former_portfolio3.jpg", "images/former_portfolio4.jpg", "images/former_portfolio5.jpg"
+            ]}
+            projectDescription= {`This is my former portfolio before it was rebranded and put out of use in 2024`}
+            isLink={"https://18d-shady.github.io/portfolio/"}
+          />
+
+          <WorkCard 
+            classNames='h-96pro'
+            projectImage="images/battery_indicator.jpg"
+            projectTitle="Battery Indicator Circuit"
+            projectCategory="Electronic Device"
+            projectImages= {["images/battery_indicator.jpg"]}
+            projectDescription= {`A weather application built with reactjs to check the weather of your city and to 
+              also check the weather of other cities listed in the api.`}
+          />
+
+          <WorkCard 
+            classNames='h-96pro'
+            projectImage="images/signature_pad.jpg"
+            projectTitle="Signature Pad"
+            projectCategory="Electronic Device"
+            projectImages= {["images/signature_pad.jpg"]}
             projectDescription= {`A weather application built with reactjs to check the weather of your city and to 
               also check the weather of other cities listed in the api.`}
           />
