@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.b9bd6a61.css",
-    "main.js": "/my-portfolio/static/js/main.2ae2ce84.js",
+    "main.css": "/my-portfolio/static/css/main.7da5126a.css",
+    "main.js": "/my-portfolio/static/js/main.e22bbad1.js",
     "static/js/488.91ee2a69.chunk.js": "/my-portfolio/static/js/488.91ee2a69.chunk.js",
     "static/media/background.jpg": "/my-portfolio/static/media/background.5be3fbae77e865ffa926.jpg",
     "static/media/background2.jpg": "/my-portfolio/static/media/background2.26725c2eb8d69118fcd7.jpg",
@@ -42,17 +42,18 @@
     "static/media/former_portfolio4.jpg": "/my-portfolio/static/media/former_portfolio4.aceeae304a50e4ac908f.jpg",
     "static/media/former_portfolio5.jpg": "/my-portfolio/static/media/former_portfolio5.ef41ede5c61b6b4eea11.jpg",
     "static/media/megzcrafthub6.jpg": "/my-portfolio/static/media/megzcrafthub6.01c7235aa7646fb549f6.jpg",
+    "static/media/logo.jpg": "/my-portfolio/static/media/logo.bcf53ae5a7c69cc712ae.jpg",
     "static/media/fingerprint2.jpg": "/my-portfolio/static/media/fingerprint2.b40cda2a0dc0574204de.jpg",
     "static/media/fingerprint1.jpg": "/my-portfolio/static/media/fingerprint1.00193a1f777b3ca162c8.jpg",
     "static/media/battery_indicator.jpg": "/my-portfolio/static/media/battery_indicator.3ffa6f9b79692e859055.jpg",
     "static/media/logo.svg": "/my-portfolio/static/media/logo.6ce24c58023cc2f8fd88.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.b9bd6a61.css.map": "/my-portfolio/static/css/main.b9bd6a61.css.map",
-    "main.2ae2ce84.js.map": "/my-portfolio/static/js/main.2ae2ce84.js.map",
+    "main.7da5126a.css.map": "/my-portfolio/static/css/main.7da5126a.css.map",
+    "main.e22bbad1.js.map": "/my-portfolio/static/js/main.e22bbad1.js.map",
     "488.91ee2a69.chunk.js.map": "/my-portfolio/static/js/488.91ee2a69.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9bd6a61.css",
-    "static/js/main.2ae2ce84.js"
+    "static/css/main.7da5126a.css",
+    "static/js/main.e22bbad1.js"
   ]
 }
