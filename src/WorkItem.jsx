@@ -9,8 +9,8 @@ function WorkItem() {
 
     return (
         <div className='font-mono text-black text-left'>
-            <div className='w-full text-white site-colorr p-6 '>
-                <Link to="/my-portfolio" className='border-2 border-gray-300 rounded-full px-3 py-2'>
+            <div className='w-full text-white site-colorr p-3 '>
+                <Link to="/my-portfolio" className=' rounded-full px-3 py-2'>
                     <svg class="h-6 w-6 inline-block me-2"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z"/>
                         <path d="M18 18v-6a3 3 0 0 0 -3 -3h-10l5 -5m0 10l-5 -5" />
@@ -23,7 +23,8 @@ function WorkItem() {
                 <p className='text-sm text-gray-700 mb-3'>{projectCategory}</p>
                 <div className="py-1">{projectDescription}</div>
 
-                {isLink && <a href={isLink} className='text-lg text-left mt-5 mb-2 site-texxt'>Open Project ... </a>}
+                {isLink && <a href={isLink}  target="_blank" rel="noopener noreferrer" 
+                    className='text-lg text-left mt-5 mb-2 site-texxt'>Open Project ... </a>}
             
 
             

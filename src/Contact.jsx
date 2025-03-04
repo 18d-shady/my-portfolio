@@ -41,7 +41,8 @@ function Contact(){
 
 					<div className="basis-1/3 my-10 md:my-0 text-xl">
 						<p className="text-sm">Socials</p>
-						<a href="https://github.com/18d-shady" className="block mt-3 hover:text-green-300">
+						<a href="https://github.com/18d-shady"  target="_blank" rel="noopener noreferrer"
+							className="block mt-3 hover:text-green-300">
 							<p className="inline-block">GitHub</p>
 							<svg className="h-6 w-6 inline-block"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  
 								<path stroke="none" d="M0 0h24v24H0z"/>  
@@ -50,7 +51,8 @@ function Contact(){
 							</svg>
 							<hr className='w-1/2 border-t border-dotted border-gray-300'></hr>
 						</a>
-						<a href="https://www.linkedin.com/in/davis-olehi-8777951a0" className="block mt-3 hover:text-green-300">
+						<a href="https://www.linkedin.com/in/davis-olehi-8777951a0"  target="_blank" rel="noopener noreferrer" 
+							className="block mt-3 hover:text-green-300">
 							<p className="inline-block">LinkedIn</p>
 							<svg className="h-6 w-6 inline-block"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  
 								<path stroke="none" d="M0 0h24v24H0z"/>  
@@ -60,7 +62,8 @@ function Contact(){
 							<hr className='w-1/2 border-t border-dotted border-gray-300'></hr>
 						</a>
 
-						<a href="https://www.instagram.com/olehidavis?igsh=czM3azlhbmtka2R2" className="block mt-3 hover:text-green-300">
+						<a href="https://www.instagram.com/olehidavis?igsh=czM3azlhbmtka2R2"  target="_blank" rel="noopener noreferrer"
+						  className="block mt-3 hover:text-green-300">
 							<p className="inline-block">Instagram</p>
 							<svg className="h-6 w-6 inline-block"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  
 								<path stroke="none" d="M0 0h24v24H0z"/>  

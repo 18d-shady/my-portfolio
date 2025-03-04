@@ -92,10 +92,10 @@ function Header(){
             </button>
           </div>
         <div className="px-2 py-72 space-y-1 sm:px-3 h-full flex flex-col justify-between">
-          <a href="#introduction" onclick={handleLinkClick} className="text-white block px-3 py-2 rounded-md text-lg font-medium">Home</a>
-          <a href="#description" onclick={handleLinkClick} className="text-white block px-3 py-2 rounded-md text-lg font-medium">About</a>
-          <a href="#work" onclick={handleLinkClick} className="text-white block px-3 py-2 rounded-md text-lg font-medium">Services</a>
-          <a href="#contact" onclick={handleLinkClick} className="text-white block px-3 py-2 rounded-md text-lg font-medium">Contact</a>
+          <a href="#introduction" onClick={handleLinkClick} className="text-white block px-3 py-2 rounded-md text-lg font-medium">Home</a>
+          <a href="#description" onClick={handleLinkClick} className="text-white block px-3 py-2 rounded-md text-lg font-medium">About</a>
+          <a href="#work" onClick={handleLinkClick} className="text-white block px-3 py-2 rounded-md text-lg font-medium">Services</a>
+          <a href="#contact" onClick={handleLinkClick} className="text-white block px-3 py-2 rounded-md text-lg font-medium">Contact</a>
         </div>
       </div>
     </nav>
